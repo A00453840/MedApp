@@ -19,8 +19,8 @@ def home():
 
 app.config['MYSQL_HOST'] = 'localhost'
 app.config['MYSQL_USER'] = 'root'
-app.config['MYSQL_PASSWORD'] = 'Potato@06'
-app.config['MYSQL_DB'] = 'medapp'
+app.config['MYSQL_PASSWORD'] = '########' #root user password for local server
+app.config['MYSQL_DB'] = 'medapp' #local database name
 
 @app.route('/login', methods =['GET', 'POST'])
 def login():
