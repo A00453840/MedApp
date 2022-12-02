@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Appointment</title>
+  <link rel="stylesheet" type="text/css" href="../static/style.css" />
+</head>
+
+<body>
+  <div id="container">
+    <!--This is a division tag for body container-->
+    <div id="body_header">
+      <!--This is a division tag for body header-->
+      <h1>Appointment Form</h1>
+     
+
+    </div>
+    <form action="index.html" method="post">
+      <fieldset>
+      
+        <label for="name"><b>Name*</b></label>
+        <input type="text" id="name" name="user_name" placeholder="Atchyut (only first names)" required pattern="[a-zA-Z0-9]+">
+
+        <label for="mail"><b>Email*</b></label>
+        <input type="email" id="mail" name="user_email" placeholder="abc@xyz.com" required>
+
+        <label for="tel"><b>Contact Number*</b></label>
+        <input type="tel" id="tel" placeholder="Include country code" name="user_num" required>
+
+
+      </fieldset>
+
+      <fieldset>
+        
+        </select>
+        <label for="appointment_description"><b>Appointment Description*</b></label>
+        <textarea id="appointment_description" name="appointment_description" placeholder="I wish to get an appointment with the best opthalmologist"></textarea>
+        <label for="date"><b>Date*</b></label>
+        <input type="date" name="date" value="" required></input>
+        <br>
+        <label for="time"><b>Time*</b></label>
+        <input type="time" name="time" value="" required></input>
+        <br>
+      </fieldset>
+      <a href="appbok.html"><button><b>Request For Appointment</b></button></a>
+    </form>
+  </div>
+</body>
+
+</html>

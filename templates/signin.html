@@ -1,0 +1,23 @@
+<!DOCTYPE html>   
+<html>   
+<head>  
+<meta name="viewport" content="width=device-width, initial-scale=1">  
+<title> Login Page </title>  
+<link rel="stylesheet" href="../static/style.css">  
+</head>    
+<body>    
+    <center> <h1>Medical ID</h1> </center>   
+    <form action="{{ url_for('login')}}" method="post">  
+        <div class="container">   
+            <h2>Username: </h2>  
+            <input type="text" placeholder="Username" name="username" required>  
+
+            <h2>Password:</h2>   
+            <input type="password" placeholder="Password" name="password" required> <br>
+            <h2>{{ msg }}</h2><br><br>
+            <a type="submit"><button class="butt_signin">Login</button></a> <br><br>
+            <a href="signin"><button class="butt_signin">Forgot password?</button></a>  
+        </div>   
+    </form>     
+</body>     
+</html>

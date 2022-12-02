@@ -1,0 +1,134 @@
+/*index*/
+
+input[type=text],
+input[type=password] {
+    width: 100%;
+    margin: 8px 0;
+    padding: 12px 20px;
+    display: inline-block;
+    border: 2px solid rgb(0, 0, 0);
+    box-sizing: border-box;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.container {
+    width: 500px;
+    background-color:white; 
+    padding: 2%;
+    margin-left: 2%;
+    margin-top: 2%;
+    border-radius: 20px;
+}
+
+.butt_signin {
+    padding-left:5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-right: 0%;
+    color: black;
+    background-color:lavenderblush;
+    font-size: 18px;
+    text-align: left;
+    font-style: normal;
+    border-radius: 20px;
+    width: 40%;
+    margin-bottom: 10px;
+}
+
+/*home*/
+
+body {
+    background-image: url("images/hosp.jpg");
+    background-size: cover;
+}
+
+.card {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin-left: 2%;
+    margin-top: 2%;
+    text-align: center;
+    float: left;
+}
+
+.title {
+    color: black;
+    font-size: 18px;
+}
+
+p {
+    color: #000;
+    font-size: larger;
+}
+
+a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+}
+
+.block{ 
+    width: 250px;   
+    border-radius: 20px;
+    float: left;
+    margin-top: 2%;
+    margin-left: 2%;
+    text-align: left;
+    background-color:rgba(240, 248, 255, 0);
+}
+
+.butt_home {
+    display: inline-block;
+    padding: 8px;
+    color: rgb(0, 0, 0);
+    background-color:bisque;
+    text-align: center;
+    cursor: pointer;
+    width: 250px;
+    border-radius: 20px;
+    font-size: 18px;
+    margin-left: 0%;
+    margin-bottom: 14%;
+}
+.butt_home_b{
+    display: inline-block;
+    padding: 8px;
+    color: rgb(0, 0, 0);
+    background-color:bisque;
+    text-align: center;
+    cursor: pointer;
+    width: 250px;
+    border-radius: 20px;
+    font-size: 18px;
+    margin-left: 0%;
+    margin-top: 17%;
+    margin-bottom: 0%;
+}
+
+.butt_home:hover{
+    opacity: 0.5;
+}
+
+
+/*report*/
+
+.butt_re {
+    background-color: burlywood;
+    color: white;
+    border: none;
+    display: inline-block;
+    height: 36px;
+    width: 100%;
+    width: 300px;
+    border-radius: 8px;
+    border-radius: 18px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    margin-left: 320px;
+    margin-top: 20px;
+    vertical-align: text-bottom;
+}

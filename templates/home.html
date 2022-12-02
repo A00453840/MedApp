@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Home</title>
+        <link rel="stylesheet" href="../static/style.css">
+    </head>
+    <body>
+        <!-- <div class="card">
+            <img src="../static/images/john.jpg" alt="John" style="width:100%">
+            <h1>Name: John Doe</h1>
+            <p class="title">Age: 69</p>
+            <p>Blood Group: A+</p>
+            <p>Phone number:7995604149</p>
+            <p>gmail:daisyflower@gmail.com</p>
+            <p>Place: Mars</p>
+        </div> -->
+
+        <div class="card">
+            <img src="../static/images/john.jpg" alt="John" style="width:100%">
+            <h1>Name: {{ row['NAME'] }}</h1>
+            <p class="title">Age: {{ row['AGE'] }}</p>
+            <p>Blood Group: {{ row['BLOODGROUP'] }}</p>
+            <p>Phone number: {{ row['PHONE'] }}</p>
+            <p>Email: {{ row['EMAIL'] }}</p>
+            <p>Place: {{ row['LOCATION'] }}</p>
+        </div>
+
+        <div class="block">
+            <a href="report"><button class="butt_home">Doctor Appointments</button></a>
+            <a href="report"><button class="butt_home">Diagnostic reports</button></a>
+            <a href="drug"><button class="butt_home">Drug usage</button></a>
+            <a href="family"><button class="butt_home">Medical history</button></a>
+            <a href="appointment"><button class="butt_home">Book an Appointment</button></a>
+            <a href="vacopen"><button class="butt_home">Vaccination</button></a>
+            <a href="govt"><button class="butt_home">Govt.Schemes</button></a>
+            <a href="remain"><button class="butt_home">Reminders</button></a>
+            <a href="/"><button class="butt_home_b">Back</button></a>
+        </div>
+    </body>
+</html>
